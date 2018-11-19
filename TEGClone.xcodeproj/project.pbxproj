@@ -12,6 +12,8 @@
 		2348E9DF21A236F500303A16 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9DE21A236F500303A16 /* Deck.swift */; };
 		2348E9E121A2370200303A16 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E021A2370200303A16 /* Card.swift */; };
 		2348E9E521A240A200303A16 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E421A240A200303A16 /* Turn.swift */; };
+		2348E9E721A2762900303A16 /* DiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E621A2762900303A16 /* DiceCell.swift */; };
+		2348E9E921A279AA00303A16 /* DiceTrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E821A279A900303A16 /* DiceTrayViewController.swift */; };
 		F679CE3521993E12004C5CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE3421993E12004C5CE4 /* AppDelegate.swift */; };
 		F679CE3721993E12004C5CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE3621993E12004C5CE4 /* ViewController.swift */; };
 		F679CE3A21993E12004C5CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F679CE3821993E12004C5CE4 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		2348E9DE21A236F500303A16 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		2348E9E021A2370200303A16 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		2348E9E421A240A200303A16 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		2348E9E621A2762900303A16 /* DiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceCell.swift; sourceTree = "<group>"; };
+		2348E9E821A279A900303A16 /* DiceTrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTrayViewController.swift; sourceTree = "<group>"; };
 		F679CE3121993E12004C5CE4 /* TEGClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEGClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F679CE3421993E12004C5CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F679CE3621993E12004C5CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,17 @@
 			path = Game;
 			sourceTree = "<group>";
 		};
+		2348E9EA21A279BB00303A16 /* Views and Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F679CE3621993E12004C5CE4 /* ViewController.swift */,
+				2348E9E621A2762900303A16 /* DiceCell.swift */,
+				F679CE3821993E12004C5CE4 /* Main.storyboard */,
+				2348E9E821A279A900303A16 /* DiceTrayViewController.swift */,
+			);
+			path = "Views and Controllers";
+			sourceTree = "<group>";
+		};
 		F679CE2821993E12004C5CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +128,7 @@
 				2348E9E321A2408200303A16 /* Game */,
 				2348E9E221A2371200303A16 /* Card Logic */,
 				F679CE4621993E2D004C5CE4 /* Model */,
-				F679CE3621993E12004C5CE4 /* ViewController.swift */,
-				F679CE3821993E12004C5CE4 /* Main.storyboard */,
+				2348E9EA21A279BB00303A16 /* Views and Controllers */,
 				F679CE3B21993E14004C5CE4 /* Assets.xcassets */,
 				F679CE3D21993E14004C5CE4 /* LaunchScreen.storyboard */,
 				F679CE4021993E14004C5CE4 /* Info.plist */,
@@ -221,10 +235,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2348E9DF21A236F500303A16 /* Deck.swift in Sources */,
+				2348E9E921A279AA00303A16 /* DiceTrayViewController.swift in Sources */,
 				F679CE5621994809004C5CE4 /* PlayerCard.swift in Sources */,
 				2348E9E121A2370200303A16 /* Card.swift in Sources */,
 				F679CE4C21993FE8004C5CE4 /* ColonizationCost.swift in Sources */,
 				F679CE54219942E0004C5CE4 /* Game.swift in Sources */,
+				2348E9E721A2762900303A16 /* DiceCell.swift in Sources */,
 				F679CE5B21994ADF004C5CE4 /* EmpireLevelKey.swift in Sources */,
 				2348E9D921A225CF00303A16 /* Player.swift in Sources */,
 				F679CE4821993E6E004C5CE4 /* Resource.swift in Sources */,
