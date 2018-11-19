@@ -7,7 +7,15 @@
 
 import Foundation
 
-typealias PlanetAction = Any
+struct PlanetAction {
+    let description: String
+    
+    private init(description: String) {
+        self.description = description
+    }
+    
+    static let galaxy = PlanetAction(description: "Upgrade your empire; spend only energy or culture.")
+}
 
 protocol PlanetProtocol {
     var action: PlanetAction { get }

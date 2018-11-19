@@ -8,6 +8,6 @@
 import Foundation
 
 struct Galaxy: PlanetProtocol {
-    var action: PlanetAction
-    var resourceProduced: Resource
+    var action = PlanetAction.galaxy
+    var resourceProduced = Resource.energy
 }

@@ -8,15 +8,16 @@
 import Foundation
 
 struct PlayerCard {
-    let galaxy: Galaxy
-    var ships: [Ship]
-    var planets: [Planet]
+    let galaxy = Galaxy()
+    var planets = [Planet]()
     
-    var resources = Dictionary(uniqueKeysWithValues: Resource.allCases.map{($0, 0)})
+    var resources = Dictionary(uniqueKeysWithValues: Resource.allCases.map{($0, 2)})
     
-    var empire: Int
-    var shipCount: Int
-    var diceCount: Int
+    var empireLevel = 0
+    let empireKey = EmpireLevel.regular
+    var shipCount: Int { return empireKey[empireLevel].shipCount }
+    var diceCount: Int { return empireKey[empireLevel].diceCount }
+    var empireVictoryPoints: Int { return empireKey[empireLevel].victoryPoints }
     
     mutating func add(_ amount: Quantum, resource: Resource) {
         resources[resource]? += amount

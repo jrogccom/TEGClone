@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2348E9D921A225CF00303A16 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9D821A225CF00303A16 /* Player.swift */; };
+		2348E9DD21A233FA00303A16 /* Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9DC21A233FA00303A16 /* Orbit.swift */; };
+		2348E9DF21A236F500303A16 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9DE21A236F500303A16 /* Deck.swift */; };
+		2348E9E121A2370200303A16 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E021A2370200303A16 /* Card.swift */; };
+		2348E9E521A240A200303A16 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348E9E421A240A200303A16 /* Turn.swift */; };
 		F679CE3521993E12004C5CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE3421993E12004C5CE4 /* AppDelegate.swift */; };
 		F679CE3721993E12004C5CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE3621993E12004C5CE4 /* ViewController.swift */; };
 		F679CE3A21993E12004C5CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F679CE3821993E12004C5CE4 /* Main.storyboard */; };
@@ -21,13 +26,18 @@
 		F679CE54219942E0004C5CE4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE53219942E0004C5CE4 /* Game.swift */; };
 		F679CE5621994809004C5CE4 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE5521994809004C5CE4 /* PlayerCard.swift */; };
 		F679CE592199496D004C5CE4 /* Quantum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE582199496D004C5CE4 /* Quantum.swift */; };
-		F679CE5B21994ADF004C5CE4 /* EmpireLevelLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE5A21994ADF004C5CE4 /* EmpireLevelLegend.swift */; };
+		F679CE5B21994ADF004C5CE4 /* EmpireLevelKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE5A21994ADF004C5CE4 /* EmpireLevelKey.swift */; };
 		F679CE5D21995048004C5CE4 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE5C21995048004C5CE4 /* Ship.swift */; };
 		F679CE5F219955F4004C5CE4 /* DiceOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE5E219955F4004C5CE4 /* DiceOutcome.swift */; };
 		F679CE6121995880004C5CE4 /* ActivationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679CE6021995880004C5CE4 /* ActivationCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2348E9D821A225CF00303A16 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2348E9DC21A233FA00303A16 /* Orbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orbit.swift; sourceTree = "<group>"; };
+		2348E9DE21A236F500303A16 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		2348E9E021A2370200303A16 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2348E9E421A240A200303A16 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 		F679CE3121993E12004C5CE4 /* TEGClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEGClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F679CE3421993E12004C5CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F679CE3621993E12004C5CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +54,7 @@
 		F679CE53219942E0004C5CE4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		F679CE5521994809004C5CE4 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
 		F679CE582199496D004C5CE4 /* Quantum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum.swift; sourceTree = "<group>"; };
-		F679CE5A21994ADF004C5CE4 /* EmpireLevelLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpireLevelLegend.swift; sourceTree = "<group>"; };
+		F679CE5A21994ADF004C5CE4 /* EmpireLevelKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpireLevelKey.swift; sourceTree = "<group>"; };
 		F679CE5C21995048004C5CE4 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 		F679CE5E219955F4004C5CE4 /* DiceOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceOutcome.swift; sourceTree = "<group>"; };
 		F679CE6021995880004C5CE4 /* ActivationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationCard.swift; sourceTree = "<group>"; };
@@ -61,6 +71,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2348E9E221A2371200303A16 /* Card Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2348E9DE21A236F500303A16 /* Deck.swift */,
+				2348E9E021A2370200303A16 /* Card.swift */,
+			);
+			path = "Card Logic";
+			sourceTree = "<group>";
+		};
+		2348E9E321A2408200303A16 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F679CE53219942E0004C5CE4 /* Game.swift */,
+				2348E9D821A225CF00303A16 /* Player.swift */,
+				2348E9E421A240A200303A16 /* Turn.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		F679CE2821993E12004C5CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				F679CE3421993E12004C5CE4 /* AppDelegate.swift */,
-				F679CE53219942E0004C5CE4 /* Game.swift */,
+				2348E9E321A2408200303A16 /* Game */,
+				2348E9E221A2371200303A16 /* Card Logic */,
 				F679CE4621993E2D004C5CE4 /* Model */,
 				F679CE3621993E12004C5CE4 /* ViewController.swift */,
 				F679CE3821993E12004C5CE4 /* Main.storyboard */,
@@ -102,6 +132,7 @@
 				F679CE6021995880004C5CE4 /* ActivationCard.swift */,
 				F679CE4D21994047004C5CE4 /* ColonyProtocol.swift */,
 				F679CE4F21994112004C5CE4 /* Planet.swift */,
+				2348E9DC21A233FA00303A16 /* Orbit.swift */,
 				F679CE5121994175004C5CE4 /* Galaxy.swift */,
 				F679CE5C21995048004C5CE4 /* Ship.swift */,
 			);
@@ -112,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				F679CE582199496D004C5CE4 /* Quantum.swift */,
-				F679CE5A21994ADF004C5CE4 /* EmpireLevelLegend.swift */,
+				F679CE5A21994ADF004C5CE4 /* EmpireLevelKey.swift */,
 				F679CE4721993E6E004C5CE4 /* Resource.swift */,
 				F679CE4B21993FE8004C5CE4 /* ColonizationCost.swift */,
 			);
@@ -189,13 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2348E9DF21A236F500303A16 /* Deck.swift in Sources */,
 				F679CE5621994809004C5CE4 /* PlayerCard.swift in Sources */,
+				2348E9E121A2370200303A16 /* Card.swift in Sources */,
 				F679CE4C21993FE8004C5CE4 /* ColonizationCost.swift in Sources */,
 				F679CE54219942E0004C5CE4 /* Game.swift in Sources */,
-				F679CE5B21994ADF004C5CE4 /* EmpireLevelLegend.swift in Sources */,
+				F679CE5B21994ADF004C5CE4 /* EmpireLevelKey.swift in Sources */,
+				2348E9D921A225CF00303A16 /* Player.swift in Sources */,
 				F679CE4821993E6E004C5CE4 /* Resource.swift in Sources */,
 				F679CE5D21995048004C5CE4 /* Ship.swift in Sources */,
 				F679CE592199496D004C5CE4 /* Quantum.swift in Sources */,
+				2348E9E521A240A200303A16 /* Turn.swift in Sources */,
 				F679CE4A21993EC2004C5CE4 /* PlanetProtocol.swift in Sources */,
 				F679CE5F219955F4004C5CE4 /* DiceOutcome.swift in Sources */,
 				F679CE6121995880004C5CE4 /* ActivationCard.swift in Sources */,
@@ -204,6 +239,7 @@
 				F679CE5221994175004C5CE4 /* Galaxy.swift in Sources */,
 				F679CE3521993E12004C5CE4 /* AppDelegate.swift in Sources */,
 				F679CE4E21994047004C5CE4 /* ColonyProtocol.swift in Sources */,
+				2348E9DD21A233FA00303A16 /* Orbit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
